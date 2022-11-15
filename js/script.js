@@ -37,9 +37,12 @@ randomNum = Math.floor(Math.random() * 10) + 1 // returns a random integer from 
 
 /**
  * This function determines if it is equal to the generated number */
+ function myButtonClicked() {
 
 if (valueFromSlider == randomNum) {
-  ;("<p> That is the correct answer. </p>")
+  document.getElementById("answers").innerHTML =
+  ("<p> That is the correct answer. </p>")
 } else {
-  ;("<p> That is the wrong answer. </p>")
+  ("<p> That is the wrong answer. </p>")
+}
 }
