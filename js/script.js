@@ -30,14 +30,13 @@ const randomNum = Math.floor(Math.random() * 6) + 1 // returns a random integer 
 /**
  * This function determines if it is equal to the generated number */
 function myButtonClicked() {
-  slider.value == randomNum
 
-  if (slider.value == true) {
+  if (slider.value == randomNum) {
     document.getElementById("guess").innerHTML =
       "<p> That is the correct answer. </p>"
   }
 
-  if (slider.value != true) {
+  if (slider.value != randomNum) {
     document.getElementById("guess").innerHTML =
       "<p> That is the wrong answer. </p>"
   }
