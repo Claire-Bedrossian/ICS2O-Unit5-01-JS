@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="pIaEtrtLPv3HG8r1JEND" name="Page-1">
-        <mxGraphModel dx="594" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="955" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -10,24 +10,27 @@
                 <mxCell id="3" value="Random Number Generator Guessing Game" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="80" y="80" width="400" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
+                <mxCell id="6" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="110" y="210" width="330" height="10" as="geometry"/>
                 </mxCell>
                 <UserObject label="You got it right / wrong" placeholders="1" id="11">
-                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
-                        <mxGeometry x="90" y="250" width="150" height="20" as="geometry"/>
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
+                        <mxGeometry x="90" y="280" width="150" height="20" as="geometry"/>
                     </mxCell>
                 </UserObject>
                 <UserObject label="Pick a number from one to six on the slider below. You must try and guess the random number the computer has chosen...&amp;nbsp;" placeholders="1" id="12">
-                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
                         <mxGeometry x="90" y="140" width="300" height="50" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <mxCell id="15" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;fillColor=#EEEEEE;strokeColor=none;" vertex="1" parent="1">
+                <mxCell id="15" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;fillColor=#EEEEEE;strokeColor=none;" parent="1" vertex="1">
                     <mxGeometry x="100" y="210" width="60" height="10" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fillColor=#EEEEEE;" vertex="1" parent="1">
+                <mxCell id="17" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fillColor=#EEEEEE;" parent="1" vertex="1">
                     <mxGeometry x="400" y="210" width="50" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="230" width="80" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
