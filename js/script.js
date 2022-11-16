@@ -7,7 +7,7 @@
 "use strict"
 
 /**
- * Check servie worker.
+ * Check service worker.
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-Unit5-01-JS/sw.js", {
@@ -23,26 +23,22 @@ function updateSliderValue(valueFromSlider) {
 }
 
 /**
- * This function displays the slider value.
- */
-function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML =
-    "<p>Value is: " + slider.value + "</p>"
-}
-
-/**
  * This function generates a random number.
  */
-randomNum = Math.floor(Math.random() * 10) + 1 // returns a random integer from 1 to 10
+const randomNum = Math.floor(Math.random() * 6) + 1 // returns a random integer from 1 to 6
 
 /**
  * This function determines if it is equal to the generated number */
  function myButtonClicked() {
+    slider.value == randomNum
 
-if (valueFromSlider == randomNum) {
-  document.getElementById("answers").innerHTML =
+if (slider.value == true) {
+  document.getElementById("guess").innerHTML =
   ("<p> That is the correct answer. </p>")
-} else {
+} 
+
+if (slider.value != true) {
+    document.getElementById("guess").innerHTML =
   ("<p> That is the wrong answer. </p>")
 }
 }

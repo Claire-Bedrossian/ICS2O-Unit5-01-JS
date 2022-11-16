@@ -58,6 +58,7 @@
         </div>
       </header>
       <main class="mdl-layout__content">
+          <p>Pick a number from one to six on the slider below. You must try and guess the random number the computer has chosen... </p>
         <div id="slider-value">?</div>
         <!-- Slider with Starting Value -->
         <!-- Note: I added and ID to this component, so I could reference it in code -->
@@ -68,8 +69,8 @@
             id="slider"
             class="mdl-slider mdl-js-slider"
             type="range"
-            min="0"
-            max="10"
+            min="1"
+            max="6"
             value="2"
             tabindex="0"
             onchange="updateSliderValue(this.value)"
@@ -86,7 +87,7 @@
       <br />
       <br />
       <div id="answers">
-        <div id="answers"></div>
+        <div id="guess"></div>
       </main>
   </body>
 </html>
